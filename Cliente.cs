@@ -1,9 +1,12 @@
 ﻿using System;
 
-public class Class1
+public class Cliente
 {
-	public Class1()
-	{
-        public String Nome { get; set; }
-}
+    public int IdCliente { get; set; }
+    public String Nome { get; set; }
+    public string sexo { get; set; }
+    public DateTime nascimento { get; set; }
+    public string telefone { get; set; }
+    public string endereco { get; set; }
+
 }
