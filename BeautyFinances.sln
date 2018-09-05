@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Cliente.cs = Cliente.cs
 		Comanda.cs = Comanda.cs
 		ControleFin.cs = ControleFin.cs
+		Funcionarios.cs = Funcionarios.cs
+		Horarios.cs = Horarios.cs
 		Servicos.cs = Servicos.cs
 	EndProjectSection
 EndProject

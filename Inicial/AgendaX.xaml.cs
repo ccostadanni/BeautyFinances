@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Inicial
 {
     /// <summary>
-    /// Interação lógica para MainWindow.xam
+    /// Lógica interna para AgendaX.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AgendaX : Window
     {
-        public MainWindow()
+        public AgendaX()
         {
             InitializeComponent();
-        }
-
-        //chama forms cadastro
-        private void btnCad_Click(object sender, RoutedEventArgs e)
-        {
-            Cadastro cd = new Cadastro();
-            cd.Show();
         }
     }
 }
