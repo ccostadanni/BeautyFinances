@@ -28,8 +28,15 @@ namespace Inicial
         //chama forms cadastro
         private void btnCad_Click(object sender, RoutedEventArgs e)
         {
-            Cadastro cd = new Cadastro();
-            cd.Show();
+            OpcoesCadastro Oc = new OpcoesCadastro();
+            Oc.Show();
+        }
+
+        
+        private void btnServi_Click(object sender, RoutedEventArgs e)
+        {
+            Servicos se = new Servicos();
+            se.Show();
         }
     }
 }

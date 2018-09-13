@@ -5,8 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Inicial"
         mc:Ignorable="d"
-        Title="AgendaX" Height="416.165" Width="683.458">
-    <Grid Margin="0,0,-52,-31">
-
-    </Grid>
+        Title="AgendaX" Height="440.373" Width="785.13">
+    <Grid Margin="0,0,-52,-31"/>
 </Window>

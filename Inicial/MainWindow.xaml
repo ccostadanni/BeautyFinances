@@ -5,16 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Inicial"
         mc:Ignorable="d"
-        Title="MainWindow" Height="416.165" Width="558.083">
-    <Grid>
+        Title="MainWindow" Height="250.165" Width="500.083">
+    <Grid Margin="0,0,2,-4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="23*"/>
+            <ColumnDefinition Width="163*"/>
+            <ColumnDefinition Width="88*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black" Offset="0"/>
                 <GradientStop Color="#FFAA5D5D" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button Content="Cadastrar" HorizontalAlignment="Left" Height="135" Margin="48,39,0,0" VerticalAlignment="Top" Width="160" Click="btnCad_Click"/>
-        <Button Content="Serviços" HorizontalAlignment="Left" Height="135" Margin="289,39,0,0" VerticalAlignment="Top" Width="160"/>
+        <Button Content="Cadastrar" HorizontalAlignment="Left" Height="135" Margin="2,39,0,0" VerticalAlignment="Top" Width="160" Click="btnCad_Click" Grid.Column="1"/>
+        <Button x:Name="btnServi" Content="Serviços" HorizontalAlignment="Left" Height="135" Margin="243,39,0,0" VerticalAlignment="Top" Width="160" Click="btnServi_Click" Grid.ColumnSpan="2" Grid.Column="1"/>
 
     </Grid>
 </Window>

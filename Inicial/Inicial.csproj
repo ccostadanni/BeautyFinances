@@ -57,14 +57,31 @@
     <Compile Include="AgendaX.xaml.cs">
       <DependentUpon>AgendaX.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ServicosX.xaml.cs">
-      <DependentUpon>ServicosX.xaml</DependentUpon>
+    <Compile Include="CadProf.xaml.cs">
+      <DependentUpon>CadProf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CadServico.xaml.cs">
+      <DependentUpon>CadServico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OpcoesCadastro.xaml.cs">
+      <DependentUpon>OpcoesCadastro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Servicoscad.xaml.cs">
+      <DependentUpon>Servicoscad.xaml</DependentUpon>
     </Compile>
     <Page Include="AgendaX.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cadastro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CadProf.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CadServico.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -83,7 +100,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="ServicosX.xaml">
+    <Page Include="OpcoesCadastro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Servicoscad.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
