@@ -5,14 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Inicial"
         mc:Ignorable="d"
-        Title="CadProf" Height="450" Width="800">
-    <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
-                <GradientStop Color="#FFB94242" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
+        Title="CadProf" Height="384" Width="642.5">
+    <Grid Background="White" Margin="0,0,2,0">
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="40,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="356"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="40,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="40,187,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="356"/>
+        <Label Content="Nome:" HorizontalAlignment="Left" Margin="40,35,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.578,-0.754" Height="24" Width="166"/>
+        <Label Content="Data de nascimento" HorizontalAlignment="Left" Margin="40,99,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.578,-0.754" Height="24" Width="166"/>
+        <Label Content="Endereço:" HorizontalAlignment="Left" Margin="40,163,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.578,-0.754" Height="24" Width="166"/>
+        <ComboBox HorizontalAlignment="Left" Margin="40,265,0,0" VerticalAlignment="Top" Width="233" Height="36" RenderTransformOrigin="-0.077,-0.153"/>
+        <Label Content="Função" HorizontalAlignment="Left" Margin="40,241,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.578,-0.754" Height="24" Width="166"/>
+        <TextBox HorizontalAlignment="Left" Height="9" Margin="563,163,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="1"/>
+        <Label Content="Telefone:" HorizontalAlignment="Left" Margin="454,163,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.578,-0.754" Height="24" Width="166"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="454,187,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144"/>
 
     </Grid>
 </Window>
