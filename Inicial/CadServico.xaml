@@ -5,19 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Inicial"
         mc:Ignorable="d"
-        Title="CadServico" Height="339" Width="644">
+        Title="CadServico" Height="351" Width="630.5">
     <Grid Margin="0,0,2,2">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="125*"/>
-            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="398*"/>
+            <ColumnDefinition Width="144*"/>
+            <ColumnDefinition Width="39*"/>
+            <ColumnDefinition Width="53*"/>
         </Grid.ColumnDefinitions>
-        <Label Content="Nome" HorizontalAlignment="Left" Margin="54,27,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.855,-0.212"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="54,27,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.855,-0.212" Height="26" Width="43"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="54,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326"/>
-        <Label Content="Descrição:" HorizontalAlignment="Left" Margin="54,106,0,0" VerticalAlignment="Top"/>
+        <Label Content="Descrição:" HorizontalAlignment="Left" Margin="54,106,0,0" VerticalAlignment="Top" Height="26" Width="64"/>
         <TextBox HorizontalAlignment="Left" Height="28" Margin="54,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326"/>
-        <Label Content="Duração:" HorizontalAlignment="Left" Margin="54,198,0,0" VerticalAlignment="Top"/>
+        <Label Content="Duração:" HorizontalAlignment="Left" Margin="54,198,0,0" VerticalAlignment="Top" Height="26" Width="57"/>
         <TextBox HorizontalAlignment="Left" Height="22" Margin="54,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Valor:" HorizontalAlignment="Left" Margin="260,198,0,0" VerticalAlignment="Top"/>
+        <Label Content="Valor:" HorizontalAlignment="Left" Margin="260,198,0,0" VerticalAlignment="Top" Height="26" Width="39"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="260,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>
