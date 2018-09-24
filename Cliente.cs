@@ -8,5 +8,6 @@ public class Cliente
     public DateTime nascimento { get; set; }
     public string telefone { get; set; }
     public string endereco { get; set; }
+    public string ciccgc { get; set; }
 
 }
